@@ -1,10 +1,13 @@
 .vagrant/
 build/
+build_debug/
 compile_commands.json
 *.pdf
 plot/*.log
 plot/*.tex
 .Rhistory
+.vscode/
+.idea/
 
 # Prerequisites
 *.d

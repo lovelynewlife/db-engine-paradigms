@@ -7,7 +7,11 @@ Have a look at src/benchmarks/tpch/queries/ to see how query processing for Type
 ## How to Build
 A configuration file is provided to build this project with CMake. 
 In the project directory run:
+```shell
+# install libtbb on Ubuntu20.04
+sudo apt-get install libtbb-dev
 ```
+```shell
 mkdir -p build/release
 cd build/release
 cmake -DCMAKE_BUILD_TYPE=Release ../..
